@@ -6,7 +6,10 @@ import Navigation from './Navigation'
 const Header = () => {
   return (
     <div className='header'>
-        <Navigation/>
+        <div className='header_sub'>
+            <h2 style={{color:'white',padding:'10px'}}>Data Science Salary Prediction</h2>
+            <Navigation/>
+        </div>
     </div>
   )
 }
